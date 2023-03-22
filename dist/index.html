@@ -10,9 +10,10 @@
 <body>
     <main class="flex min-h-screen bg-purple-500 lg:bg-gradient-to-r from-red-400 to-pink-400">
 		<div class="sm:flex items-start w-screen px-4 py-10 overflow-x-auto">
+            <div id="overlay" class="fixed top-0 left-0 w-full h-screen bg-black bg-opacity-70 z-10"></div>
 
 			<!-- TO DO -->
-            <section class="list">
+            <section class="list hidden">
                 <header>
                     <h3 contenteditable="" class="leading-none font-bold text-gray-900 p-1 outline-none">TO DO</h3>
                 </header>
@@ -72,7 +73,7 @@
         </section>
 
         <!-- IN PROGRESS -->
-        <section class="list">
+        <section class="list hidden">
                 
             <header>
                 <h3 contenteditable="" class="leading-none font-bold text-gray-900 p-1 outline-none">IN PROGRESS</h3>
@@ -142,7 +143,7 @@
         </section>
 
 			<!-- DONE -->
-            <section class="list">
+            <section class="list hidden">
 
                 <header>
                     <h3 contenteditable="" class="p-1  font-bold leading-0 text-gray-900 outline-none">DONE</h3>
@@ -203,12 +204,32 @@
                             </p>
                         </div>
                     </li>
-                    <li class="card">
+                    <li class="card relative z-20">
                        <div class="p-3">
                         <p contenteditable="">
                             play
                         </p>
                     </div>
+
+                    <!--POP UP-->
+
+                    <ul class="w-40 ml-2 text-sm text-white font-semibold sm:absolute top-0 left-80 sm:m-0" id="popup">
+                        <li class="flex">
+                            <a class="px-3 py-2.5 mb-1 bg-black
+                             bg-opacity-60 hover:bg-opacity-100 rounded transofrm hover:translate-x-1 transition duration-75 ease-in" href="#">Edit labels</a>
+                        </li>
+                    
+                        <li class="flex">
+                            <a class="px-3 py-2.5 mb-1 bg-black
+                             bg-opacity-60 hover:bg-opacity-100 rounded transofrm hover:translate-x-1 transition duration-75 ease-in" href="#">Edit tag</a>
+                        </li>
+                    
+                        <li class="flex">
+                            <a class="px-3 py-2.5 mb-1 bg-black
+                             bg-opacity-60 hover:bg-opacity-100 rounded transofrm hover:translate-x-1 transition duration-75 ease-in" href="#">Archive</a>
+                        </li>
+                    
+                    </ul>
 
                     </li>
                     <li class="card">
