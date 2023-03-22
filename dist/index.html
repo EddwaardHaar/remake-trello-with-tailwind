@@ -8,14 +8,13 @@
     <link rel="stylesheet" href="output.css">
 </head>
 <body>
-    
     <main class="flex min-h-screen bg-purple-500 lg:bg-gradient-to-r from-red-400 to-pink-400">
 		<div class="sm:flex items-start w-screen px-4 py-10 overflow-x-auto">
 
-			 <!-- TO DO -->
+			<!-- TO DO -->
             <section class="list">
                 <header>
-                    <h3 class="p-1 font-bold leading-0 text-gray-900">TO DO</h3>
+                    <h3 class="leading-none font-bold text-gray-900 p-1">TO DO</h3>
                 </header>
 
                 <ul>
@@ -42,11 +41,11 @@
                 </footer>
         </section>
 
-         <!-- IN PROGRESS -->
-         <section class="list">
-         
+        <!-- IN PROGRESS -->
+        <section class="list">
+                
             <header>
-                <h3 class="p-1  font-bold leading-0 text-gray-900">IN PROGRESS</h3>
+                <h3 class="leading-none font-bold text-gray-900 p-1">IN PROGRESS</h3>
             </header>
 
             <ul>
@@ -62,70 +61,83 @@
             </ul>
 
             <footer>
-                <a class="block p-1 text-gray-500 hover:text-gray-700" href="#">
+                <a class="hidden p-1 text-gray-500 hover:text-gray-700" href="#">
                     Add a card...
                 </a>
+
+                <form action="">
+                    <textarea class="w-full p-3 border-t border-l border-gray-300 outline-none rounded shadow-inner"
+                        rows="3"></textarea>
+
+                    <div class="flex mt-1.5 items-center">
+                        <button class="btn btn-green">Add card</button>
+
+                        <a class="ml-0.5 p-1 text-gray-500 hover:text-gray-700" href="#">
+                            <svg class="w-6 h-6 fill-current" viewBox="0 0 20 20">
+                                <path d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </form>
             </footer>
         </section>
 
+			<!-- DONE -->
+            <section class="list">
 
-         <!-- DONE -->
-         <section class="list">
-
-            <header>
-                <h3 class="p-1  font-bold leading-0 text-gray-900">DONE</h3>
-            </header>
-
-            <ul>
-                <li class="card">
-                    read
-                </li>
-                <li class="card">
-                    play
-                </li>
-                <li class="card">
-                    write
-                </li>
-            </ul>
-
-            <footer>
-                <a class="block p-1 text-gray-500 hover:text-gray-700" href="#">
-                    Add a card...
-                </a>
-            </footer>
-        </section>
-
-
-         <!-- BRAIN THOUGHTS -->
-         <section class="list">
-
-            <header>
-                <h3 class="p-1  font-bold leading-0 text-gray-900">BRAIN THOUGHTS</h3>
-            </header>
-
-            <ul>
-                <li class="card">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. At quaerat commodi sint fugit odit. 
-                </li>
-                <li class="card">
-                    play
-                </li>
-                <li class="card">
-                    write
-                </li>
-            </ul>
-
-            <footer>
-                <a class="block p-1 text-gray-500 hover:text-gray-700" href="#">
-                    Add a card...
-                </a>
-            </footer>
-        </section>
-
-
-		</div>
-	</main>
-
+                <header>
+                    <h3 class="p-1  font-bold leading-0 text-gray-900">DONE</h3>
+                </header>
+    
+                <ul>
+                    <li class="card">
+                        read
+                    </li>
+                    <li class="card">
+                        play
+                    </li>
+                    <li class="card">
+                        write
+                    </li>
+                </ul>
+    
+                <footer>
+                    <a class="block p-1 text-gray-500 hover:text-gray-700" href="#">
+                        Add a card...
+                    </a>
+                </footer>
+            </section>
+    
+    
+             <!-- BRAIN THOUGHTS -->
+             <section class="list">
+    
+                <header>
+                    <h3 class="p-1  font-bold leading-0 text-gray-900">BRAIN THOUGHTS</h3>
+                </header>
+    
+                <ul>
+                    <li class="card">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. At quaerat commodi sint fugit odit. 
+                    </li>
+                    <li class="card">
+                        play
+                    </li>
+                    <li class="card">
+                        write
+                    </li>
+                </ul>
+    
+                <footer>
+                    <a class="block p-1 text-gray-500 hover:text-gray-700" href="#">
+                        Add a card...
+                    </a>
+                </footer>
+            </section>
+    
+    
+            </div>
+        </main>
 
     <!-- PLAYGROUND CARD -->
     <div class="relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50 bg-gradient-to-r from-red-400 to-pink-400 py-6 sm:py-12">
