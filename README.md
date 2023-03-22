@@ -27,6 +27,9 @@ What I learned during this project:
 2. Open index.html in your web browser
 3. That's it!
 
+## Future Plans
+I plan to continue developing this project by adding Vue.js and making the website work for real.
+
 
 ## Acknowledgements
 This project was inspired by the Trello project management tool. Special thanks to the Tailwind CSS team for creating such a fantastic CSS framework.
