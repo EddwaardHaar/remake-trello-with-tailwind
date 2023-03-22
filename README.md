@@ -22,11 +22,11 @@ What I learned during this project:
 
 <img width="704" alt="image" src="https://user-images.githubusercontent.com/72867281/227048414-3f2a50ae-f601-4a8c-8bc0-f82623fad273.png">
 
-##Installation
+## Installation
 1. Clone the repository
 2. Open index.html in your web browser
 3. That's it!
 
 
-##Acknowledgements
+## Acknowledgements
 This project was inspired by the Trello project management tool. Special thanks to the Tailwind CSS team for creating such a fantastic CSS framework.
