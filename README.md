@@ -1,5 +1,6 @@
 # remake-trello-with-tailwind
- my remake of trello with tailwind
+
+This is a static website remake of the popular project management tool, Trello, using the Tailwind CSS framework.
  
 What I learned during this project:
 - **how to setup tailwind**, 
@@ -20,3 +21,12 @@ What I learned during this project:
 ## This is original:
 
 <img width="704" alt="image" src="https://user-images.githubusercontent.com/72867281/227048414-3f2a50ae-f601-4a8c-8bc0-f82623fad273.png">
+
+##Installation
+1. Clone the repository
+2. Open index.html in your web browser
+3. That's it!
+
+
+##Acknowledgements
+This project was inspired by the Trello project management tool. Special thanks to the Tailwind CSS team for creating such a fantastic CSS framework.
