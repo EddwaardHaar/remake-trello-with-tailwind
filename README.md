@@ -14,7 +14,7 @@ What I learned during this project:
 - **how to create components to have cleaner html code**, 
 - **better understanding how SVG is working** etc. 
  
-## My reamke:
+## reamke:
 
 <img width="1267" alt="image" src="https://user-images.githubusercontent.com/72867281/227048120-17bb049b-cd3a-4e71-9ed5-a8895a7e7624.png">
 
